@@ -1,4 +1,3 @@
-Got it — here is your **final, fully customized README.md (single code block, GitHub-ready)** for your encryption website 👇
 
 ````markdown
 `````
