@@ -65,7 +65,6 @@ cd mes
 
 * Upload code to device OR run locally:
 ````
-```bash
 python main.py
 
 ````
