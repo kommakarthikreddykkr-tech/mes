@@ -70,8 +70,7 @@ cd mes
 ### 🔹 Step 3: Run Application
 
 ```bash
-npm install
-npm start
+use xaamp server to start its 
 ```
 
 *(Modify based on your backend technology)*
@@ -122,21 +121,13 @@ Contributions are welcome! Feel free to fork and submit pull requests.
 
 ---
 
-## 📜 License
 
-This project is open-source and available under the MIT License.
-
----
 
 ## 👨‍💻 Author
 
 **Karthik Reddy**
 GitHub: [https://github.com/kommakarthikreddykkr-tech](https://github.com/kommakarthikreddykkr-tech)
 
-```
-
----
-```
 If you want, I can upgrade this further with:
 - ⭐ GitHub badges (very professional look)
 - 📸 UI screenshots section
