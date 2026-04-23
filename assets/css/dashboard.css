@@ -1,0 +1,231 @@
+:root{
+    --purple:#7c3aed;
+    --purple-dark:#5b21b6;
+    --bg:#f5f3ff;
+    --border:#e5e7eb;
+    --text:#1f2937;
+    --muted:#6b7280;
+}
+
+/* RESET */
+*{
+    box-sizing:border-box;
+    font-family:Inter,Segoe UI,sans-serif;
+}
+
+body{
+    margin:0;
+    height:100vh;
+    display:flex;
+    background:var(--bg);
+}
+
+/* ================= LAYOUT ================= */
+
+.sidebar{
+    width:240px;
+    background:#fff;
+    border-right:1px solid var(--border);
+    padding:20px;
+}
+
+.logo{
+    color:var(--purple);
+    margin-bottom:20px;
+}
+
+.main{
+    flex:1;
+    display:flex;
+    flex-direction:column;
+}
+
+.topbar{
+    height:60px;
+    background:#fff;
+    border-bottom:1px solid var(--border);
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    padding:0 20px;
+}
+
+.content{
+    padding:20px;
+    flex:1;
+    overflow:auto;
+}
+
+/* ================= NAV ================= */
+
+.nav-btn{
+    display:block;
+    padding:10px 14px;
+    border-radius:10px;
+    color:var(--text);
+    text-decoration:none;
+    margin-bottom:6px;
+    font-weight:600;
+}
+
+.nav-btn:hover,
+.nav-btn.active{
+    background:#ede9fe;
+    color:var(--purple);
+}
+
+.back-link{
+    text-decoration:none;
+    font-weight:600;
+    color:var(--purple);
+}
+
+/* ================= TOOLBAR ================= */
+
+.toolbar{
+    display:flex;
+    gap:10px;
+    margin-bottom:16px;
+    align-items:center;
+    flex-wrap:wrap;
+}
+
+/* ================= BUTTONS ================= */
+
+.btn{
+    padding:10px 14px;
+    border-radius:10px;
+    border:1px solid var(--border);
+    background:#fff;
+    font-weight:600;
+    cursor:pointer;
+}
+
+.btn.primary{
+    background:linear-gradient(135deg,var(--purple),var(--purple-dark));
+    color:#fff;
+    border:none;
+}
+
+.btn.danger{
+    color:#dc2626;
+    border-color:#fecaca;
+}
+
+.btn:hover{
+    border-color:var(--purple);
+    color:var(--purple);
+}
+
+/* ================= FILE LIST ================= */
+
+.files{
+    background:#fff;
+    border-radius:14px;
+    border:1px solid var(--border);
+}
+
+.row{
+    display:grid;
+    grid-template-columns:40px 1fr 120px 160px;
+    padding:12px;
+    border-bottom:1px solid var(--border);
+    align-items:center;
+}
+
+.row:last-child{
+    border-bottom:none;
+}
+
+.row:hover{
+    background:#faf5ff;
+}
+
+.name{
+    display:flex;
+    gap:10px;
+    font-weight:600;
+}
+
+.empty{
+    text-align:center;
+    padding:60px;
+    color:var(--muted);
+}
+
+/* ================= MODALS ================= */
+
+.modal{
+    position:fixed;
+    inset:0;
+    background:rgba(0,0,0,.4);
+    display:none;
+    align-items:center;
+    justify-content:center;
+    z-index:999;
+}
+
+.modal-box{
+    width:380px;
+    background:#fff;
+    border-radius:14px;
+    padding:20px;
+}
+
+.modal h3{
+    margin-top:0;
+}
+
+/* ================= FORM ================= */
+
+input[type="text"],
+input[type="file"],
+input[type="password"],
+input[type="email"],
+select{
+    width:100%;
+    padding:10px;
+    border-radius:10px;
+    border:1px solid var(--border);
+    outline:none;
+}
+
+input:focus,
+select:focus{
+    border-color:var(--purple);
+}
+
+/* ================= FOLDER NAV (MOVE / COPY) ================= */
+
+.folder-nav{
+    border:1px solid var(--border);
+    border-radius:10px;
+    max-height:220px;
+    overflow:auto;
+}
+
+.folder-item{
+    padding:10px;
+    border-bottom:1px solid var(--border);
+    cursor:pointer;
+}
+
+.folder-item:last-child{
+    border-bottom:none;
+}
+
+.folder-item:hover{
+    background:#ede9fe;
+    color:var(--purple);
+}
+
+.folder-item.active{
+    background:#ddd6fe;
+    color:var(--purple);
+}
+
+/* ================= CHECKBOX ================= */
+
+input[type="checkbox"]{
+    cursor:pointer;
+}
