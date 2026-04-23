@@ -110,5 +110,3 @@ Contributions are welcome! Feel free to fork and submit pull requests.
 **Komma Karthik Reddy**
 GitHub: [https://github.com/kommakarthikreddykkr-tech](https://github.com/kommakarthikreddykkr-tech)
 
-```
-```
