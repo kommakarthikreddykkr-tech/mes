@@ -50,11 +50,11 @@ mes/
 ## 🚀 How to Run
 
 ### 🔹 Step 1: Clone Repository
-
-```bash
+````
+````bash
 git clone https://github.com/kommakarthikreddykkr-tech/mes.git
 cd mes
-```
+````
 
 ### 🔹 Step 2: Setup Environment
 
@@ -64,10 +64,11 @@ cd mes
 ### 🔹 Step 3: Run Project
 
 * Upload code to device OR run locally:
-
+````
 ```bash
 python main.py
-```
+
+````
 
 *(Modify command based on your project type)*
 
