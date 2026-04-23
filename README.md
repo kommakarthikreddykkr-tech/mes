@@ -1,7 +1,7 @@
 Got it — here is your **final, fully customized README.md (single code block, GitHub-ready)** for your encryption website 👇
 
 ````markdown
-````
+`````
 # 🔐 MES - Mickey's Encryption Software
 
 ## 📌 Overview
@@ -134,5 +134,5 @@ If you want, I can upgrade this further with:
 - 🔑 Explanation of your encryption algorithm (for viva/interview)
 - 📄 Mini project report
 
-Just tell 👍
-```
+
+````
