@@ -14,8 +14,8 @@
 | Authorized redirect URI must match exactly
 */
 
-define("GOOGLE_CLIENT_ID", "1086589968384-ar660i8qfqcat5tbid7qujj3petc510t.apps.googleusercontent.com");
-define("GOOGLE_CLIENT_SECRET", "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");
+define("GOOGLE_CLIENT_ID", "---GOOGLE_CLIENT_ID---");
+define("GOOGLE_CLIENT_SECRET", "---GOOGLE_CLIENT_SECRET---");
 
 /*
 |--------------------------------------------------------------------------
@@ -29,7 +29,7 @@ define("GOOGLE_CLIENT_SECRET", "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");
 | https://yourdomain.com/google_callback.php
 */
 
-define("GOOGLE_REDIRECT_URI", "https://mitstest.ct.ws/test/mes/google_callback.php");
+define("GOOGLE_REDIRECT_URI", "---GOOGLE_REDIRECT_URI---");
 
 /*
 |--------------------------------------------------------------------------
@@ -38,4 +38,4 @@ define("GOOGLE_REDIRECT_URI", "https://mitstest.ct.ws/test/mes/google_callback.p
 | drive.file = app can access only files it created
 | This is safer than full drive access
 */
-define("GOOGLE_DRIVE_SCOPE", "https://www.googleapis.com/auth/drive.file");
+define("GOOGLE_DRIVE_SCOPE", "---GOOGLE_DRIVE_SCOPE---");
